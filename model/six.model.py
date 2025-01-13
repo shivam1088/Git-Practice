@@ -58,6 +58,11 @@ if __name__ == "__main__":
     user.save()
 
     # Fetch a user by ID
+<<<<<<< HEAD
     fetched = User.get_by_id(1)
     s='dfjdshkjf'
     print(f"Fetched user: {fetched}",{s})
+=======
+    fetched_user = User.get_by_id(1)
+    print(f"user: {fetched_user}")
+>>>>>>> 4fa03ea91301d63e98a2ad92c917fc2b1c11cafd
