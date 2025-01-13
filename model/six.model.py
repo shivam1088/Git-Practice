@@ -59,4 +59,5 @@ if __name__ == "__main__":
 
     # Fetch a user by ID
     fetched = User.get_by_id(1)
-    print(f"Fetched user: {fetched}")
+    s='dfjdshkjf'
+    print(f"Fetched user: {fetched}",{s})
