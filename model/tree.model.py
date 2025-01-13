@@ -1,0 +1,2 @@
+s='ptrterio'
+print(s)
